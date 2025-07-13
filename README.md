@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="assets/DashboardApp.png" alt="DashboardApp Logo" width="200"/>
+</p>
+
+
 # Dashboard App
 
 **Dashboard App** es una aplicación web moderna para la gestión administrativa, compras y recursos humanos en una empresa. Cuenta con autenticación por roles, paneles interactivos, generación de reportes PDF, y una arquitectura basada en React.js, Node.js, PostgreSQL y JWT.
