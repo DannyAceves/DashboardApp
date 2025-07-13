@@ -62,33 +62,38 @@ cd DashboardApp
 ```
 Backend
 
-    Instala dependencias:
+    1 Instala dependencias:
+```bash
+        cd backend
+        npm install
+```
 
-cd backend
-npm install
+    2 Configura variables de entorno .env con tus credenciales de base de datos y JWT.
 
-    Configura variables de entorno .env con tus credenciales de base de datos y JWT.
+    3 Inicia el servidor:
 
-    Inicia el servidor:
-
-npm run dev
+```bash
+        npm run dev
+```
 
 Frontend
 
-    Instala dependencias:
+    1 Instala dependencias:
+```bash
+        cd frontend
+        npm install
+```
 
-cd frontend
-npm install
-
-    Inicia la app:
-
-npm run dev
-
+    2 Inicia la app:
+```bash
+        npm run dev
+```
 La aplicación estará disponible en http://localhost:5173 por defecto.
+
 Uso Rápido
 
     Regístrate o inicia sesión con usuario y contraseña.
-
+    
     Según tu rol verás el dashboard correspondiente con datos y opciones.
 
     Usa los formularios para crear órdenes, empleados o registros financieros.
@@ -129,10 +134,6 @@ Contribuciones
 
     Abre un Pull Request.
 
-Por favor revisa las issues abiertas para ideas o reportes.
-Licencia
-
-Este proyecto está bajo la licencia MIT - consulta el archivo LICENSE para más detalles.
 Contacto
 
     Autor: Danny Aceves
