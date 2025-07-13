@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="dashboard-app-front/src/assets/DashboardApp.png" alt="DashboardApp Logo" width="200"/>
+  <img src="dashboard-app-front/src/assets/DashboardApp.png" alt="DashboardApp Logo" width="400"/>
 </p>
 
 
