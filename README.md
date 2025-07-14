@@ -105,46 +105,37 @@ La aplicación estará disponible en http://localhost:5173 por defecto.
 🗄️ Restaurar base de datos PostgreSQL
 
 Este proyecto incluye un archivo de respaldo backup.sql en la raíz.
-
-    Requisitos
+Requisitos
 
       PostgreSQL instalado
-
       Acceso a usuario con privilegios (por ejemplo postgres)
 
 ```bash
         # 1. Crea la base de datos
         createdb -U PoliMaster DashboardApp
-
         # 2. Restaura el backup
         psql -U PoliMaster -d DashboardApp -f backup.sql
 ```
 
 👥 Roles y módulos
 
-    Administración
+    Administración:
 
         Registra ingresos y egresos
-
         Visualiza reportes financieros
+        Exporta PDF
 
-        Exporta PDF con gráficos y tablas
-
-    Compras
+    Compras:
 
         Registra órdenes de compra
-
         Visualiza historial de proveedores
+        Exporta PDF
 
-        Exporta PDF con montos por categoría
-
-    Recursos Humanos
+    Recursos Humanos:
 
         Agrega empleados
-
         Consulta asistencias y nuevos ingresos por semana
-
-        Exporta PDF con gráficas de empleados
+        Exporta PDF
 
 Instrucciones
 
