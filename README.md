@@ -67,15 +67,15 @@ cd DashboardApp
 ```
 Backend
 
-    1 Instala dependencias:
+1 Instala dependencias:
 ```bash
         cd backend
         npm install
 ```
 
-    2 Configura variables de entorno .env con tus credenciales de base de datos y JWT.
+2 Configura variables de entorno .env con tus credenciales de base de datos y JWT.
 
-    3 Inicia el servidor:
+3 Inicia el servidor:
 
 ```bash
         npm run dev
@@ -83,13 +83,13 @@ Backend
 
 Frontend
 
-    1 Instala dependencias:
+1 Instala dependencias:
 ```bash
         cd frontend
         npm install
 ```
 
-    2 Inicia la app:
+2 Inicia la app:
 ```bash
         npm run dev
 ```
@@ -98,11 +98,8 @@ La aplicación estará disponible en http://localhost:5173 por defecto.
 Uso Rápido
 
     Regístrate o inicia sesión con usuario y contraseña.
-    
     Según tu rol verás el dashboard correspondiente con datos y opciones.
-
     Usa los formularios para crear órdenes, empleados o registros financieros.
-
     Descarga reportes PDF filtrados por fechas para análisis y control.
 
 Estructura del Proyecto
@@ -130,21 +127,15 @@ Contribuciones
 ¡Las contribuciones son bienvenidas! Para colaborar:
 
     Haz un fork de este repositorio.
-
     Crea una rama con tu feature: git checkout -b feature/nueva-funcionalidad
-
     Haz commit de tus cambios: git commit -m "Descripción del cambio"
-
     Push a tu rama: git push origin feature/nueva-funcionalidad
-
     Abre un Pull Request.
 
 Contacto
 
     Autor: Danny Aceves
-
     GitHub: DannyAceves
-
     Email: danielaceves.mx@gmail.com
 
 Gracias por usar Dashboard App — ¡Tu solución empresarial simplificada!
