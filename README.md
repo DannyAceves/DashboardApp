@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="docs/logo.png" alt="DashboardApp Logo" width="200" />
+  <img src="dashbboard-app-front/src/assets/DashboarAppLogo.png" alt="DashboardApp Logo" width="300" />
   <h1># Dashboard App</h1>
   <p>**Dashboard App** es una aplicación web moderna para la gestión administrativa, compras y recursos humanos en una empresa. Cuenta con autenticación por roles, paneles interactivos, generación de reportes PDF, y una arquitectura basada en React.js, Node.js, PostgreSQL y JWT..</p>
 </div>
