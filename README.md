@@ -148,20 +148,28 @@ Uso Rápido
 Estructura del Proyecto
 ```bash
 /backend
+  ├── config/
   ├── controllers/
+  ├── middlewares/
   ├── models/
   ├── routes/
   ├── utils/
+  ├── .env
+  ├── app.js
   ├── server.js
   ├── package.json
 /frontend
   ├── src/
+      ├── assets/
       ├── components/
       ├── context/
+      ├── db/
       ├── pages/
+      ├── services/
       ├── App.jsx
       ├── main.jsx
-  ├── tailwind.config.js
+  ├── index.html
+  ├── vite.config.js
   ├── package.json
 README.md
 ```
