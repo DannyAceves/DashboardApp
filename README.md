@@ -151,7 +151,7 @@ Requisitos
         Consulta asistencias y nuevos ingresos por semana
         Exporta PDF
 
-Instrucciones
+## Instrucciones
 
 Uso Rápido
 
