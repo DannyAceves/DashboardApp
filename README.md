@@ -1,7 +1,6 @@
 <div align="center">
-  <img src="docs/logo.png" alt="DashboardApp Logo" width="200" />
-  <h1># Dashboard App</h1>
-  <p>**Dashboard App** es una aplicación web moderna para la gestión administrativa, compras y recursos humanos en una empresa. Cuenta con autenticación por roles, paneles interactivos, generación de reportes PDF, y una arquitectura basada en React.js, Node.js, PostgreSQL y JWT..</p>
+  <img src="dashboard-app-front\src\assets\DashboardAppLogo.png" alt="DashboardApp Logo" width="300" />
+  <p>Dashboard App es una aplicación web moderna para la gestión administrativa, compras y recursos humanos en una empresa. Cuenta con autenticación por roles, paneles interactivos, generación de reportes PDF, y una arquitectura basada en React.js, Node.js, PostgreSQL y JWT</p>
 </div>
 
 ---
@@ -149,20 +148,28 @@ Uso Rápido
 Estructura del Proyecto
 ```bash
 /backend
+  ├── config/
   ├── controllers/
+  ├── middlewares/
   ├── models/
   ├── routes/
   ├── utils/
+  ├── .env
+  ├── app.js
   ├── server.js
   ├── package.json
 /frontend
   ├── src/
+      ├── assets/
       ├── components/
       ├── context/
+      ├── db/
       ├── pages/
+      ├── services/
       ├── App.jsx
       ├── main.jsx
-  ├── tailwind.config.js
+  ├── index.html
+  ├── vite.config.js
   ├── package.json
 README.md
 ```
