@@ -69,7 +69,7 @@ Backend
 
 1 Instala dependencias:
 ```bash
-        cd backend
+        cd dashboard-app-back
         npm install
 ```
 
@@ -85,7 +85,7 @@ Frontend
 
 1 Instala dependencias:
 ```bash
-        cd frontend
+        cd dashboard-app-front
         npm install
 ```
 
