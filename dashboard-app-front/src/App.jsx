@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import ProtectedRoute from "./components/ProtectedRoute";
+import PublicRoute from "./components/PublicRoute";
 import Navbar from "./components/Navs/Navbar";
 import DashboardRRHH from "./pages/DashboardRRHH";
 import DashboardCompras from "./pages/DashboardCompras";
@@ -28,8 +29,25 @@ function AppContent() {
             {showNavbar && <Navbar />}
             <Routes>
                 <Route path="/" element={<HomePage />} />
-                <Route path="/login" element={<Login />} />
-                <Route path="/register" element={<Register />} />
+
+                <Route
+                    path="/login"
+                    element={
+                        <PublicRoute>
+                            <Login />
+                        </PublicRoute>
+                    }
+                />
+
+                <Route
+                    path="/register"
+                    element={
+                        <PublicRoute>
+                            <Register />
+                        </PublicRoute>
+                    }
+                />
+
                 <Route
                     path="/dashboard-rrhh"
                     element={
