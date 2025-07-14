@@ -1,11 +1,8 @@
-<p align="center">
-  <img src="dashboard-app-front/src/assets/DashboardAppLogo.png" alt="DashboardApp Logo" width="300"/>
-</p>
-
-
-# Dashboard App
-
-**Dashboard App** es una aplicación web moderna para la gestión administrativa, compras y recursos humanos en una empresa. Cuenta con autenticación por roles, paneles interactivos, generación de reportes PDF, y una arquitectura basada en React.js, Node.js, PostgreSQL y JWT.
+<div align="center">
+  <img src="docs/logo.png" alt="DashboardApp Logo" width="200" />
+  <h1># Dashboard App</h1>
+  <p>**Dashboard App** es una aplicación web moderna para la gestión administrativa, compras y recursos humanos en una empresa. Cuenta con autenticación por roles, paneles interactivos, generación de reportes PDF, y una arquitectura basada en React.js, Node.js, PostgreSQL y JWT..</p>
+</div>
 
 ---
 
@@ -85,15 +82,71 @@ Frontend
 
 1 Instala dependencias:
 ```bash
-        cd dashboard-app-front
+        cd ../dashboard-app-front
         npm install
 ```
+2 Crea un archivo .env en backend/ con la configuración de tu base de datos:
+```bash
+PORT=5000
+DB_USER=tu_user_db
+DB_PASSWORD=tu_password
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=tu_db
+JWT_SECRET=una_clave_secreta
+```
 
-2 Inicia la app:
+3 Inicia la app:
 ```bash
         npm run dev
 ```
 La aplicación estará disponible en http://localhost:5173 por defecto.
+
+🗄️ Restaurar base de datos PostgreSQL
+
+Este proyecto incluye un archivo de respaldo backup.sql en la raíz.
+
+    Requisitos
+
+      PostgreSQL instalado
+
+      Acceso a usuario con privilegios (por ejemplo postgres)
+
+```bash
+        # 1. Crea la base de datos
+        createdb -U PoliMaster DashboardApp
+
+        # 2. Restaura el backup
+        psql -U PoliMaster -d DashboardApp -f backup.sql
+```
+
+👥 Roles y módulos
+
+    Administración
+
+        Registra ingresos y egresos
+
+        Visualiza reportes financieros
+
+        Exporta PDF con gráficos y tablas
+
+    Compras
+
+        Registra órdenes de compra
+
+        Visualiza historial de proveedores
+
+        Exporta PDF con montos por categoría
+
+    Recursos Humanos
+
+        Agrega empleados
+
+        Consulta asistencias y nuevos ingresos por semana
+
+        Exporta PDF con gráficas de empleados
+
+Instrucciones
 
 Uso Rápido
 
