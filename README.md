@@ -33,14 +33,14 @@ Su diseño modular y uso de JWT garantiza seguridad y personalización por usuar
 ### 🔍 Vista previa de la aplicación
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1assncXgRwEAOHvUuiqz6NzlNcNWAHOY-" alt="Login" width="220" style="margin-right: 10px;" />
-  <img src="https://drive.google.com/uc?export=view&id=1sQ_zIgESFOLmINw1GUHayMgkspzWB-H5" alt="Register" width="220" />
+  <img src="https://drive.google.com/uc?export=view&id=1assncXgRwEAOHvUuiqz6NzlNcNWAHOY-" alt="Login" width="300" height="200" style="margin-right: 10px;" />
+  <img src="https://drive.google.com/uc?export=view&id=1sQ_zIgESFOLmINw1GUHayMgkspzWB-H5" alt="Register" width="300" height="200" />
 </p>
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1gkqzNIPKJue6djYXxSfjLrkT7LLFBTAu" alt="Dashboard Compras" width="240" style="margin: 5px;" />
-  <img src="https://drive.google.com/uc?export=view&id=1kHFgh6kGKBXleOlZDYBIsHefZ-yFiFEd" alt="Dashboard RRHH" width="240" style="margin: 5px;" />
-  <img src="https://drive.google.com/uc?export=view&id=1xuMdq7ciFYw6e809k82yDq_BQ3HcE6rs" alt="Dashboard Admin" width="240" style="margin: 5px;" />
+  <img src="https://drive.google.com/uc?export=view&id=1gkqzNIPKJue6djYXxSfjLrkT7LLFBTAu" alt="Dashboard Compras" width="300" height="200" style="margin: 5px;" />
+  <img src="https://drive.google.com/uc?export=view&id=1kHFgh6kGKBXleOlZDYBIsHefZ-yFiFEd" alt="Dashboard RRHH" width="300" height="200" style="margin: 5px;" />
+  <img src="https://drive.google.com/uc?export=view&id=1xuMdq7ciFYw6e809k82yDq_BQ3HcE6rs" alt="Dashboard Admin" width="300" height="200" style="margin: 5px;" />
 </p>
 
 ---
