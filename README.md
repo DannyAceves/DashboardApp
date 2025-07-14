@@ -45,8 +45,6 @@ Su diseño modular y uso de JWT garantiza seguridad y personalización por usuar
 
 ---
 
----
-
 ## Características
 
 - Autenticación y autorización por roles (Admin, Compras, RRHH).
