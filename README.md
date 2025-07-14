@@ -103,7 +103,7 @@ Uso Rápido
     Descarga reportes PDF filtrados por fechas para análisis y control.
 
 Estructura del Proyecto
-
+```bash
 /backend
   ├── controllers/
   ├── models/
@@ -121,6 +121,7 @@ Estructura del Proyecto
   ├── tailwind.config.js
   ├── package.json
 README.md
+```
 
 Contribuciones
 
