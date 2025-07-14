@@ -189,7 +189,7 @@ Estructura del Proyecto
 README.md
 ```
 
-Contribuciones
+## Contribuciones
 
 ¡Las contribuciones son bienvenidas! Para colaborar:
 
@@ -199,7 +199,7 @@ Contribuciones
     Push a tu rama: git push origin feature/nueva-funcionalidad
     Abre un Pull Request.
 
-Contacto
+## Contacto
 
     Autor: Danny Aceves
     GitHub: DannyAceves
