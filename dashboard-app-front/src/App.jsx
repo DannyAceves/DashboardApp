@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route, useLocation} from 'react-router-dom';
-
 import HomePage from './pages/HomePage';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import Verificacion from './pages/Verificacion';
 import ProtectedRoute from "./components/ProtectedRoute";
 import PublicRoute from "./components/PublicRoute";
 import Navbar from "./components/Navs/Navbar";
@@ -48,6 +48,13 @@ function AppContent() {
                     }
                 />
 
+                <Route 
+                    path="/verificar" 
+                    element={
+                        <Verificacion />
+                    } 
+                />
+
                 <Route
                     path="/dashboard-rrhh"
                     element={
@@ -72,7 +79,12 @@ function AppContent() {
                         </ProtectedRoute>
                     }
                 />
-                <Route path="/unauthorized" element={<Unauthorized />} />
+                <Route 
+                    path="/unauthorized" 
+                    element={
+                        <Unauthorized />
+                    } 
+                />
             </Routes>
         </div>
     );

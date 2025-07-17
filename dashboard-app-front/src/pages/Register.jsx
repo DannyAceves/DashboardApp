@@ -5,7 +5,6 @@ import { useNavigate } from 'react-router-dom';
 
 const Register = () => {
     const navigate = useNavigate();
-
     const [form, setForm] = useState({
         nombre: '',
         email: '',
@@ -23,18 +22,19 @@ const Register = () => {
         e.preventDefault();
         try {
             await register(form);
-            toast.success('Usuario registrado con éxito ✅');
-            setForm({
-                nombre: '',
-                email: '',
-                password: '',
-                rol: 'compras',
-            });
-            setIsRedirecting(true);
+                toast.success('Usuario registrado con éxito ✅');
+                setForm({
+                    nombre: '',
+                    email: '',
+                    password: '',
+                    rol: 'compras',
+                });
+                setIsRedirecting(true);
 
-            setTimeout(() => {
-                navigate('/login');
-            }, 1500);
+                setTimeout(() => {
+                    navigate('/verificar', { state: { email: form.email } });
+                }, 1500);
+
         } catch {
             toast.error('Registro inválido ❌');
         }
