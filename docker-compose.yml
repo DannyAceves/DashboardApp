@@ -1,0 +1,44 @@
+version: '3.9'
+
+services:
+  db:
+    image: postgres:15
+    container_name: dashboard-db
+    environment:
+      POSTGRES_USER: PoliMaster
+      POSTGRES_PASSWORD: DanSu_250917
+      POSTGRES_DB: DashboardApp
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./db/backup.sql:/docker-entrypoint-initdb.d/backup.sql
+
+  backend:
+    build: ./dashboard-app-back
+    container_name: dashboard-backend
+    ports:
+      - "4000:4000"
+    environment:
+      PORT: 4000
+      DB_USER: PoliMaster
+      DB_PASSWORD: DanSu_250917
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_NAME: DashboardApp
+      JWT_SECRET: DashboardApp_2025_100%realnofake
+    depends_on:
+      - db
+
+  frontend:
+    build: ./dashboard-app-front
+    container_name: dashboard-frontend
+    ports:
+      - "5173:5173"
+    environment:
+      VITE_BACKEND_URL: http://localhost:4000
+    depends_on:
+      - backend
+
+volumes:
+  pgdata:
