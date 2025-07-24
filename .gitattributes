@@ -1,0 +1,6 @@
+dashboard-app-frontend/**/* linguist-language=JavaScript
+dashboard-app-backend/**/* linguist-language=JavaScript
+
+
+node_modules/** -linguist-vendored
+.github/** -linguist-vendored
